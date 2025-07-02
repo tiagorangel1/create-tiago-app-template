@@ -1,6 +1,8 @@
 import { Elysia } from "elysia";
 import { rateLimit } from "elysia-rate-limit";
 
+import db from "./db.js";
+
 export default new Elysia({
   prefix: "/api",
 })
